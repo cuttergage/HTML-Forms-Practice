@@ -1,10 +1,9 @@
 form label {
-  display: flex;
+  display: block;
   font-size: 18px;
   margin-bottom: 5px;
   color: gray;
   font-family: arial;
-  width: 100%;
 }
 
 form input[type="text"] {
@@ -15,11 +14,11 @@ form input[type="text"] {
 
 form textarea {
   height: 4.75rem;
-  width: 100%;
+  rows: "5";
+  cols: "50";
   color: #000;
   font-size: 16px;
   margin-bottom: 20px;
-  width: 100%;
 }
 
 form button {
